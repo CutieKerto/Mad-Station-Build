@@ -1,0 +1,18 @@
+﻿- type: entity
+  parent: ClothingNeckBase
+  id: ChokerWithSpike
+  name: Choker Spike
+  description: If you turn it back and forth, then it will be a weapon of torture
+
+  components:
+    - type: Sprite
+      sprite: Lust/Clothing/Neck/Chokers/choker_with_spike.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ChokerWithHeart
+  name: Choker Heart
+  description: For good crew members
+  components:
+    - type: Sprite
+      sprite: Lust/Clothing/Neck/Chokers/choker_with_heart.rsi

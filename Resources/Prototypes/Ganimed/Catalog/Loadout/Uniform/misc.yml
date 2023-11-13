@@ -95,7 +95,7 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: false
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - HeadOfSecurity
   prototype: ClothingUniformJumpsuitHoSGrey
@@ -105,7 +105,7 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: false
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - HeadOfSecurity
   prototype: ClothingUniformJumpsuitHoSBlue
@@ -115,7 +115,7 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: false
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingUniformJumpskirtCasualPurple
 
 - type: loadout
@@ -123,7 +123,7 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: false
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingUniformJumpsuitCasualPurple
 
 - type: loadout
@@ -131,5 +131,5 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: false
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingUniformJumpsuitFlannel

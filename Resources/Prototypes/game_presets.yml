@@ -14,10 +14,10 @@
   - extended
   - shittersafari
   name: extended-title
-  showInVote: false #2boring2vote
+  showInVote: true #2boring2vote
   description: extended-description
   rules:
-  - BasicStationEventScheduler
+  - ExtendedRule
 
 - type: gamePreset
   id: Secret
@@ -36,7 +36,7 @@
     - sandbox
   name: sandbox-title
   description: sandbox-description
-  showInVote: true
+  showInVote: false
   maxPlayers: 5
   rules:
     - Sandbox
@@ -60,7 +60,7 @@
   name: death-match-title
   description: death-match-description
   maxPlayers: 15
-  showInVote: true
+  showInVote: false
   supportedMaps: DeathMatchMapPool
   rules:
     - DeathMatch31
@@ -74,19 +74,6 @@
   showInVote: false
   rules:
     - Nukeops
-    - BasicStationEventScheduler
-
-- type: gamePreset
-  id: Revolutionary
-  alias:
-    - rev
-    - revs
-    - revolutionaries
-  name: rev-title
-  description: rev-description
-  showInVote: false
-  rules:
-    - Revolutionary
     - BasicStationEventScheduler
 
 - type: gamePreset

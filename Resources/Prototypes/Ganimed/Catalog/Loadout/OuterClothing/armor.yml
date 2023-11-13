@@ -100,7 +100,7 @@
   category: loadout-category-outerClothing
   cost: 6
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - ChiefMedicalOfficer
     - Quartermaster
@@ -125,7 +125,7 @@
   category: loadout-category-outerClothing
   cost: 6
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - SecurityCadet
     - SecurityOfficer

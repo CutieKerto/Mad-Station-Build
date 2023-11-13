@@ -33,7 +33,7 @@
   category: loadout-category-head
   cost: 1
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHeadHatPurplesoft
 
 - type: loadout

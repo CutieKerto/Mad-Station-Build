@@ -18,5 +18,5 @@ ent-WeaponSubMachineGunDrozdRubber = Дрозд
     .suffix = Пистолет-пулемёт, Травматический
     .desc = { ent-WeaponSubMachineGunDrozd.desc }
 ent-WeaponSubMachineGunWt550 = WT550
-    .desc = Отличный пистолет-пулемёт, производства NanoTrasen's Small Arms Division. Использует патроны калибра .35 авто.
+    .desc = Отличный пистолет-пулемёт, производства Best Shot QL. Использует патроны калибра .35 авто.
     .suffix = Пистолет-пулемёт

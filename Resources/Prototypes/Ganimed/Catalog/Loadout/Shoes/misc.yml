@@ -52,7 +52,7 @@
   id: LoadoutShoesClothingShoeSlippersDuck
   category: loadout-category-shoes
   cost: 3
-  sponsorOnly: true
+  sponsorOnly: false
   exclusive: true
   prototype: ClothingShoeSlippersDuck
 
@@ -60,7 +60,7 @@
   id: LoadoutShoesClothingShoesSlippers
   category: loadout-category-shoes
   cost: 2
-  sponsorOnly: true
+  sponsorOnly: false
   exclusive: true
   prototype: ClothingShoesSlippers
 
@@ -87,7 +87,7 @@
   category: loadout-category-shoes
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingShoesTourist
 
 - type: loadout
@@ -95,5 +95,5 @@
   category: loadout-category-shoes
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingShoesDameDane

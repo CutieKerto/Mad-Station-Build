@@ -308,7 +308,7 @@
   category: loadout-category-outerClothing
   cost: 4
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingOuterCoatBlueCoat
 
 - type: loadout
@@ -316,7 +316,7 @@
   category: loadout-category-outerClothing
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - HeadOfSecurity
   prototype: ClothingOuterCoatHoSTrench
@@ -326,7 +326,7 @@
   category: loadout-category-outerClothing
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - BlueShield
   prototype: ClothingOuterCoatBlueShield

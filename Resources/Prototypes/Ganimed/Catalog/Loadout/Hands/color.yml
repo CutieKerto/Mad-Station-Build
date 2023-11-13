@@ -52,7 +52,7 @@
   category: loadout-category-hands
   cost: 1
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHandsGlovesColorBlue
 
 - type: loadout
@@ -60,5 +60,5 @@
   category: loadout-category-hands
   cost: 1
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHandsGlovesColorPurple

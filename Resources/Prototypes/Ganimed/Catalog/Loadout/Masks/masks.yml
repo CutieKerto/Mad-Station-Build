@@ -120,7 +120,7 @@
   category: loadout-category-masks
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - SecurityCadet
     - SecurityOfficer
@@ -138,7 +138,7 @@
   category: loadout-category-masks
   cost: 4
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - SalvageSpecialist
     - Quartermaster
@@ -149,7 +149,7 @@
   category: loadout-category-masks
   cost: 7
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - SalvageSpecialist
     - Quartermaster
@@ -185,7 +185,7 @@
   category: loadout-category-masks
   cost: 1
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: Cigar
 
 - type: loadout

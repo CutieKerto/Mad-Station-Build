@@ -66,7 +66,7 @@
   category: loadout-category-head
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ToyRubberDuck
 
 - type: loadout
@@ -88,5 +88,5 @@
   category: loadout-category-head
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHeadPaperSackSmile

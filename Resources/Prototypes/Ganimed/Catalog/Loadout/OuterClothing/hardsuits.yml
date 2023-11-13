@@ -104,8 +104,7 @@
   category: loadout-category-outerClothing
   cost: 12
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Quartermaster
   prototype: ClothingOuterHardsuitLuxury
-  

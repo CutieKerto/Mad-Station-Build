@@ -101,7 +101,7 @@
   category: loadout-category-uniform
   cost: 1
   exclusive: false
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingUniformColorRainbow
 
 - type: loadout
@@ -109,7 +109,7 @@
   category: loadout-category-uniform
   cost: 1
   exclusive: false
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingUniformJumpskirtColorPink
 
 - type: loadout
@@ -117,7 +117,7 @@
   category: loadout-category-uniform
   cost: 1
   exclusive: false
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingUniformJumpsuitColorPink
 
 - type: loadout
@@ -167,7 +167,7 @@
   category: loadout-category-uniform
   cost: 1
   exclusive: false
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingUniformJumpsuitColorDarkGreen
 
 - type: loadout
@@ -175,7 +175,7 @@
   category: loadout-category-uniform
   cost: 1
   exclusive: false
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingUniformJumpskirtColorDarkGreen
 
 - type: loadout
@@ -183,7 +183,7 @@
   category: loadout-category-uniform
   cost: 1
   exclusive: false
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingUniformJumpsuitColorDarkBlue
 
 - type: loadout
@@ -191,7 +191,7 @@
   category: loadout-category-uniform
   cost: 1
   exclusive: false
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingUniformJumpskirtColorDarkBlue
 
 - type: loadout
@@ -199,7 +199,7 @@
   category: loadout-category-uniform
   cost: 1
   exclusive: false
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingUniformJumpsuitColorPurple
 
 - type: loadout
@@ -207,5 +207,5 @@
   category: loadout-category-uniform
   cost: 1
   exclusive: false
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingUniformJumpskirtColorPurple

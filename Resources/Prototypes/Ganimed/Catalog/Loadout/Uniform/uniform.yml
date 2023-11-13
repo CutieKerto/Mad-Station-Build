@@ -119,7 +119,7 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: false
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - ChiefMedicalOfficer
     - Chemist
@@ -137,7 +137,7 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - ChiefMedicalOfficer
     - Chemist
@@ -986,7 +986,7 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - ChiefEngineer
     - SeniorEngineer
@@ -1009,7 +1009,7 @@
   category: loadout-category-uniform
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingUniformJumpsuitDetective
 
 - type: loadout
@@ -1017,7 +1017,7 @@
   category: loadout-category-uniform
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingUniformJumpskirtDetective
 
 - type: loadout
@@ -1025,7 +1025,7 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingUniformJumpsuitLibrarian
 
 - type: loadout
@@ -1033,7 +1033,7 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingUniformJumpsuitCurator
 
 - type: loadout
@@ -1041,7 +1041,7 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingUniformJumpskirtLibrarian
 
 - type: loadout
@@ -1049,7 +1049,7 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingUniformJumpskirtCurator
 
 - type: loadout
@@ -1057,7 +1057,7 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Chaplain
   prototype: ClothingUniformJumpsuitMonasticRobeDark
@@ -1067,7 +1067,7 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Chaplain
   prototype: ClothingUniformJumpsuitMonasticRobeLight
@@ -1077,7 +1077,7 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - SecurityCadet
     - SecurityOfficer
@@ -1094,7 +1094,7 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - SecurityCadet
     - SecurityOfficer
@@ -1111,7 +1111,7 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Captain
   prototype: ClothingUniformJumpskirtCapFormalDressAlter
@@ -1121,7 +1121,7 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingUniformJumpskirtCasualBlue
 
 - type: loadout
@@ -1129,7 +1129,7 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingUniformJumpsuitCasualBlue
 
 - type: loadout
@@ -1137,7 +1137,7 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingUniformJumpsuitHawaiBlue
 
 - type: loadout
@@ -1145,7 +1145,7 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingUniformJumpsuitAncient
 
 - type: loadout
@@ -1153,7 +1153,7 @@
   category: loadout-category-uniform
   cost: 4
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - SecurityCadet
     - SecurityOfficer
@@ -1170,7 +1170,7 @@
   category: loadout-category-uniform
   cost: 4
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - SecurityCadet
     - SecurityOfficer
@@ -1187,7 +1187,7 @@
   category: loadout-category-uniform
   cost: 4
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - SecurityCadet
     - SecurityOfficer
@@ -1204,7 +1204,7 @@
   category: loadout-category-uniform
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - HeadOfSecurity
   prototype: ClothingUniformJumpskirtHosFormal
@@ -1214,7 +1214,7 @@
   category: loadout-category-uniform
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Captain
   prototype: ClothingUniformJumpskirtCapFormalDress
@@ -1224,7 +1224,7 @@
   category: loadout-category-uniform
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - ResearchDirector
     - ResearchAssistant
@@ -1238,7 +1238,7 @@
   category: loadout-category-uniform
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - HeadOfSecurity
   prototype: ClothingUniformJumpsuitHosFormal
@@ -1248,7 +1248,7 @@
   category: loadout-category-uniform
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Captain
   prototype: ClothingUniformJumpsuitCapFormal
@@ -1258,7 +1258,7 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Chef
     - Bartender
@@ -1270,7 +1270,7 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Chef
     - Bartender
@@ -1282,7 +1282,7 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Chef
     - Bartender
@@ -1294,7 +1294,7 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Warden
     - HeadOfSecurity
@@ -1306,7 +1306,7 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Warden
     - HeadOfSecurity
@@ -1318,7 +1318,7 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Chef
     - Chef
@@ -1330,7 +1330,7 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Chef
     - Chef
@@ -1342,7 +1342,7 @@
   category: loadout-category-uniform
   cost: 6
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Janitor
     - ServiceWorker
@@ -1353,7 +1353,7 @@
   category: loadout-category-uniform
   cost: 6
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Janitor
     - ServiceWorker

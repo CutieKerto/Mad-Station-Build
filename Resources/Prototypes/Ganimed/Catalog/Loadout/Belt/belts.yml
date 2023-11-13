@@ -113,7 +113,7 @@
   category: loadout-category-belt
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - ChiefMedicalOfficer
     - Chemist
@@ -131,7 +131,7 @@
   category: loadout-category-belt
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - SecurityCadet
     - SecurityOfficer
@@ -168,7 +168,7 @@
   category: loadout-category-belt
   cost: 7
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingBeltChampion
 
 - type: loadout

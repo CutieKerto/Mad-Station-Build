@@ -158,7 +158,7 @@
   category: loadout-category-head
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHeadHatCone
 
 - type: loadout
@@ -166,7 +166,7 @@
   category: loadout-category-head
   cost: 8
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHeadHatFancyCrown
 
 - type: loadout
@@ -227,7 +227,7 @@
   category: loadout-category-head
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHeadHatFedoraGrey
 
 - type: loadout
@@ -235,7 +235,7 @@
   category: loadout-category-head
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHeadHatSombrero
 
 - type: loadout
@@ -243,7 +243,7 @@
   category: loadout-category-head
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - SecurityCadet
     - SecurityOfficer
@@ -260,7 +260,7 @@
   category: loadout-category-head
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHeadHatUshanka
 
 - type: loadout
@@ -268,7 +268,7 @@
   category: loadout-category-head
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHeadHatFez
 
 - type: loadout
@@ -276,7 +276,7 @@
   category: loadout-category-head
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHeadHatVioletwizard
 
 - type: loadout
@@ -284,7 +284,7 @@
   category: loadout-category-head
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - HeadOfPersonnel
   prototype: ClothingHeadHatHopcap
@@ -294,7 +294,7 @@
   category: loadout-category-head
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - HeadOfSecurity
   prototype: ClothingHeadHatHoshat
@@ -304,8 +304,7 @@
   category: loadout-category-head
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Captain
   prototype: ClothingHeadHatCapcap
-  

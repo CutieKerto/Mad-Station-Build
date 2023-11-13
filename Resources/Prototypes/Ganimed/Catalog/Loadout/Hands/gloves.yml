@@ -62,7 +62,7 @@
     - HeadOfSecurity
     - Captain
     - BlueShield
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHandsTacticalMaidGloves
 
 - type: loadout
@@ -210,7 +210,7 @@
   exclusive: true
   whitelistJobs:
     - Clown
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHandsGlovesCluwneRemoveable
 
 - type: loadout
@@ -218,5 +218,5 @@
   category: loadout-category-hands
   cost: 4
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHandsGlovesPowerglove

@@ -114,7 +114,7 @@
   category: loadout-category-outerClothing
   cost: 6
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingOuterStraightjacket
 
 - type: loadout
@@ -139,7 +139,7 @@
   category: loadout-category-outerClothing
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Bartender
     - ServiceWorker
@@ -151,7 +151,7 @@
   category: loadout-category-outerClothing
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Bartender
     - ServiceWorker
@@ -163,7 +163,7 @@
   category: loadout-category-outerClothing
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingOuterApron
 
 - type: loadout
@@ -171,7 +171,7 @@
   category: loadout-category-outerClothing
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Botanist
   prototype: ClothingOuterApronBotanist
