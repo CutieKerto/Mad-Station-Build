@@ -1,32 +1,22 @@
-<p align="center"> <img alt="Space Station 14" width="880" height="300" src="https://raw.githubusercontent.com/space-wizards/asset-dump/de329a7898bb716b9d5ba9a0cd07f38e61f1ed05/github-logo.svg" /></p>
 
-Space Station 14 это ремейк SS13, который работает на собственном движке [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), написанном на C#.
+# **Welcome to the LUST zone**
 
-Это репозиторий первого русскоязычного сервера по Space Station 14, целью которого является полный перевод игры на русский язык, поддержка актуальных изменений из основного репозитория, а так же добавление собственных изменений по необходимости.
+**Only LUST inside pixel spacegirls**
 
-## Ссылки
+❤️ *Репозиторий одного из самых лучших 18+ серверов в Space Station 14* ❤️
 
-[Наш Discord](https://discord.gg/r4bXRd2Uk8) | [Наш Boosty](https://boosty.to/ss14_ganimed) | [Наша Вики](https://ss14-ganimed.space/index.php/Заглавная_страница) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Клиент без Steam](https://spacestation14.io/about/nightlies/) | [Основной репозиторий](https://github.com/space-wizards/space-station-14)
+**Lust Station** является дочерним сервером проекта **DEAD SPACE 14** от команды **PYTE.**
+## Полезные ссылки
 
-## Документация
+ - [Discord сервер](https://discord.gg/QAuaNDnpTd)
 
-На официальном сайте с [документацией](https://docs.spacestation14.io/) имеется вся необходимая информация о контенте SS14, движке, дизайне игры и многом другом. Также имеется много информации для начинающих разработчиков.
 
-## Контрибьют
 
-В случае если вы хотите добавить новый контент будет лучше, если сначала вы предложите его в [основной репозиторий](https://github.com/space-wizards/space-station-14) или обсудите его необходимость на нашем сервере [Discord](https://discord.gg/YWp7dkMDTG).
+## Авторы
 
-## Сборка
+- [@VictorSShved](https://github.com/VictorSShved)
+- [@Alaris-als](https://github.com/Alaris-als)
 
-1. Склонируйте этот репозиторий локально
-2. Запустите `RUN_THIS.py` для инициализации подмодулей и скачивания движка.
-3. Скомпилируйте проект.
 
-[Более подробная инструкция по запуску проекта.](https://docs.spacestation14.io/getting-started/dev-setup)
+![Логотип](https://media.discordapp.net/attachments/1125542226429222993/1134835577703895230/km_20230729_480p_15f_20230729_160513.gif)
 
-## Лицензия
-Весь код репозитория лицензирован под [MIT](https://github.com/ss14-ganimed/GS14/blob/master/LICENSE.TXT).
-
-Большинство ассетов лицензированы под [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), если не указано иное. Ассеты имеют свою лицензию и авторские права в файле метаданных. [Пример](https://github.com/space-syndicate/space-station-14/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json). 
-
-Обратите внимание, что некоторые ассеты лицензированы на некоммерческой основе [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) или аналогичной некоммерческой лицензией, и их необходимо удалить, если вы хотите использовать этот проект в коммерческих целях.
