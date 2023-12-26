@@ -17,7 +17,7 @@
   showInVote: true #2boring2vote
   description: extended-description
   rules:
-  - ExtendedRule
+  - BasicStationEventScheduler
 
 - type: gamePreset
   id: Secret
