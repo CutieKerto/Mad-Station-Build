@@ -3,16 +3,8 @@
   background: /Textures/LobbyScreens/RobusTyanka.png
 
 - type: lobbyBackground
-  id: Qillu
-  background: /Textures/LobbyScreens/qillu.png
-
-- type: lobbyBackground
   id: Singularity
   background: /Textures/LobbyScreens/mousesingularity.png
-
-- type: lobbyBackground
-  id: LustSpace
-  background: /Textures/LobbyScreens/lustspace.png
 
 - type: lobbyBackground
   id: ExplosiveKiss
