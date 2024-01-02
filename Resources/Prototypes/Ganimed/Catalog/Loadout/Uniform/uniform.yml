@@ -46,7 +46,7 @@
   category: loadout-category-uniform
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Quartermaster
     - SalvageSpecialist
@@ -1412,7 +1412,7 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Captain
   prototype: ClothingUniformJumpskirtCapFormalDressAlter
@@ -1443,7 +1443,7 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingUniformJumpsuitHawaiBlack
 
 - type: loadout
@@ -1451,7 +1451,7 @@
   category: loadout-category-uniform
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingUniformJumpskirtPerformer
 
 - type: loadout
@@ -1498,7 +1498,7 @@
   category: loadout-category-uniform
   cost: 4
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - SecurityCadet
     - SecurityOfficer
@@ -1515,7 +1515,7 @@
   category: loadout-category-uniform
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - HeadOfSecurity
   prototype: ClothingUniformJumpskirtHosFormal
@@ -1525,7 +1525,7 @@
   category: loadout-category-uniform
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Captain
   prototype: ClothingUniformJumpskirtCapFormalDress
@@ -1535,7 +1535,7 @@
   category: loadout-category-uniform
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - ResearchDirector
     - ResearchAssistant
@@ -1549,7 +1549,7 @@
   category: loadout-category-uniform
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - HeadOfSecurity
   prototype: ClothingUniformJumpsuitHosFormal
@@ -1559,7 +1559,7 @@
   category: loadout-category-uniform
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Captain
   prototype: ClothingUniformJumpsuitCapFormal
@@ -1569,7 +1569,7 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Chef
     - Bartender
@@ -1647,7 +1647,7 @@
   category: loadout-category-uniform
   cost: 6
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Janitor
     - ServiceWorker
@@ -1658,18 +1658,18 @@
   category: loadout-category-uniform
   cost: 6
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Janitor
     - ServiceWorker
   prototype: ClothingUniformJumpskirtJanimaidmini
 
 - type: loadout
-  id: LoadoutUniformClothingUniformJumpskirtCoroner 
+  id: LoadoutUniformClothingUniformJumpskirtCoroner
   category: loadout-category-uniform
   cost: 1
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - ChiefMedicalOfficer
     - SeniorPhysician
@@ -1677,11 +1677,11 @@
   prototype: ClothingUniformJumpskirtCoroner
 
 - type: loadout
-  id: LoadoutUniformClothingUniformJumpsuitCoroner 
+  id: LoadoutUniformClothingUniformJumpsuitCoroner
   category: loadout-category-uniform
   cost: 1
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - ChiefMedicalOfficer
     - SeniorPhysician
@@ -1693,7 +1693,7 @@
   category: loadout-category-uniform
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - ChiefMedicalOfficer
     - SeniorPhysician
@@ -1705,7 +1705,7 @@
   category: loadout-category-uniform
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - ChiefMedicalOfficer
     - SeniorPhysician
@@ -1717,7 +1717,7 @@
   category: loadout-category-uniform
   cost: 4
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - SecurityCadet
     - SecurityOfficer
@@ -1733,7 +1733,7 @@
   id: LoadoutUniformClothingUniformJumpsuitBrigmedicBlack
   category: loadout-category-uniform
   cost: 4
-  sponsorOnly: true
+  sponsorOnly: false
   exclusive: true
   whitelistJobs:
     - SecurityCadet

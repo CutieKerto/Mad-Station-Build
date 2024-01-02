@@ -3,5 +3,5 @@
   category: loadout-category-masks
   cost: 4
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingMaskNeckGaiter

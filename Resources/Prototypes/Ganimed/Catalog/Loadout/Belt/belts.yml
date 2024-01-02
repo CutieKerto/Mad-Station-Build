@@ -37,7 +37,7 @@
   category: loadout-category-belt
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - CargoTechnician
     - SalvageSpecialist
@@ -142,7 +142,7 @@
   category: loadout-category-belt
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - ChiefMedicalOfficer
     - Chemist
@@ -160,7 +160,7 @@
   category: loadout-category-belt
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - SecurityCadet
     - SecurityOfficer
@@ -224,4 +224,4 @@
     - Brigmedic
     - BlueShield
   prototype: ClothingBeltAssault
-  sponsorOnly: true
+  sponsorOnly: false

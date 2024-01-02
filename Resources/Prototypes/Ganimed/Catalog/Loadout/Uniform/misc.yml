@@ -104,7 +104,7 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: false
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - HeadOfSecurity
   prototype: ClothingUniformJumpsuitHoSBlue
@@ -135,5 +135,5 @@
   category: loadout-category-uniform
   cost: 2
   exclusive: false
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingUniformJumpskirtOfLife

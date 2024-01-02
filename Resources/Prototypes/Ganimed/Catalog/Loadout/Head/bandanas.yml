@@ -76,8 +76,7 @@
 - type: loadout
   id: LoadoutHeadClothingHeadBandBlack
   category: loadout-category-head
-  sponsorOnly: true
+  sponsorOnly: false
   cost: 1
   exclusive: true
   prototype: ClothingHeadBandBlack
-  

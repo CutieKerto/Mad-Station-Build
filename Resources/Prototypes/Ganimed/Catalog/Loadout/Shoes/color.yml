@@ -52,5 +52,5 @@
   category: loadout-category-shoes
   cost: 1
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingShoesColorBlack

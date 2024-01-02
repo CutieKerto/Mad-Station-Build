@@ -66,5 +66,5 @@
   category: loadout-category-hands
   cost: 1
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHandsGlovesColorBlack

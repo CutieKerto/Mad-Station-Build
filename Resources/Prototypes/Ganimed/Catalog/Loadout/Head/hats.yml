@@ -165,7 +165,7 @@
   category: loadout-category-head
   cost: 8
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHeadHatFancyCrown
 
 - type: loadout
@@ -240,7 +240,7 @@
   category: loadout-category-head
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - SecurityCadet
     - SecurityOfficer
@@ -257,7 +257,7 @@
   category: loadout-category-head
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHeadHatUshanka
 
 - type: loadout
@@ -297,7 +297,7 @@
   category: loadout-category-head
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Captain
   prototype: ClothingHeadHatCapcap
@@ -318,30 +318,30 @@
     - Coroner
     - Brigmedic
   prototype: ClothingHeadNurseHat
-  sponsorOnly: true
-  
+  sponsorOnly: false
+
 - type: loadout
   id: LoadoutHeadClothingHeadSafari
   category: loadout-category-head
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHeadSafari
-  
+
 - type: loadout
   id: LoadoutHeadClothingHeadHatBowlerHat
   category: loadout-category-head
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHeadHatBowlerHat
-  
+
 - type: loadout
   id: LoadoutHeadClothingHeadHatSyndieMAA
   category: loadout-category-head
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Captain
     - HeadOfPersonnel
@@ -350,39 +350,39 @@
     - Warden
     - IAA
   prototype: ClothingHeadHatSyndieMAA
-  
+
 - type: loadout
   id: LoadoutHeadClothingHeadHatOutlawHat
   category: loadout-category-head
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHeadHatOutlawHat
-  
+
 - type: loadout
   id: LoadoutHeadClothingHeadHatCake
   category: loadout-category-head
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHeadHatCake
-  
+
 - type: loadout
   id: LoadoutHeadClothingHeadHatPlaguedoctor
   category: loadout-category-head
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Clown
   prototype: ClothingHeadHatPlaguedoctor
-  
+
 - type: loadout
   id: LoadoutHeadClothingHeadHatJesterAlt
   category: loadout-category-head
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Clown
   prototype: ClothingHeadHatJesterAlt

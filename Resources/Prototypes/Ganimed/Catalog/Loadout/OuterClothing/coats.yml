@@ -239,7 +239,7 @@
   category: loadout-category-outerClothing
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Brigmedic
   prototype: ClothingOuterCoatLabSecurityMedic
@@ -266,7 +266,7 @@
   category: loadout-category-outerClothing
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - SecurityCadet
     - SecurityOfficer

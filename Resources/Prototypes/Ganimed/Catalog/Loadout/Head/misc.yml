@@ -14,7 +14,7 @@
 
 - type: loadout
   id: LoadoutHeadClothingHeadHatAnimalCatBlack
-  sponsorOnly: true
+  sponsorOnly: false
   category: loadout-category-head
   cost: 1
   exclusive: true
@@ -74,7 +74,7 @@
   category: loadout-category-head
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ToyRubberDuck
 
 - type: loadout
@@ -102,7 +102,7 @@
   category: loadout-category-head
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHeadHatSurgcapPurple
   whitelistJobs:
     - ChiefMedicalOfficer
@@ -120,7 +120,7 @@
   category: loadout-category-head
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHeadHatSurgcapGreen
   whitelistJobs:
     - ChiefMedicalOfficer
@@ -138,7 +138,7 @@
   category: loadout-category-head
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHeadHatSurgcapBlue
   whitelistJobs:
     - ChiefMedicalOfficer
@@ -156,7 +156,7 @@
   category: loadout-category-head
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHeadHatFlowerCrown
 
 - type: loadout
@@ -164,7 +164,7 @@
   category: loadout-category-head
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHeadHatTophat
 
 - type: loadout
@@ -172,7 +172,7 @@
   category: loadout-category-head
   cost: 5
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHeadHatMagician
 
 - type: loadout
@@ -180,7 +180,7 @@
   category: loadout-category-head
   cost: 5
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHeadHatSkub
 
 - type: loadout
@@ -188,7 +188,7 @@
   category: loadout-category-head
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHeadPaperSack
 
 - type: loadout
@@ -196,40 +196,39 @@
   category: loadout-category-head
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHeadRastaHat
-  
+
 - type: loadout
   id: LoadoutHeadMaterialHideCorgi
   category: loadout-category-head
   cost: 9
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: MaterialHideCorgi
-  
+
 - type: loadout
   id: LoadoutHeadClothingHeadHatCardborg
   category: loadout-category-head
   cost: 4
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHeadHatCardborg
-  
+
 - type: loadout
   id: LoadoutHeadClothingHeadHatPumpkin
   category: loadout-category-head
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingHeadHatPumpkin
-  
+
 - type: loadout
   id: LoadoutHeadClothingHeadHatJester
   category: loadout-category-head
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Clown
   prototype: ClothingHeadHatJester
-  

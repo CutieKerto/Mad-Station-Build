@@ -108,7 +108,7 @@
   cost: 2
   exclusive: true
   prototype: ClothingOuterHoodieBlack
-  sponsorOnly: true
+  sponsorOnly: false
 
 - type: loadout
   id: LoadoutOuterClothingClothingOuterFlannelBlue
@@ -146,7 +146,7 @@
   category: loadout-category-outerClothing
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Bartender
     - ServiceWorker
@@ -185,7 +185,7 @@
   category: loadout-category-outerClothing
   cost: 3
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - SecurityCadet
     - SecurityOfficer

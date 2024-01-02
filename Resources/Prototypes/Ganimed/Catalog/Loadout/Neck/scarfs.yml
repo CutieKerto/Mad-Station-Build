@@ -60,4 +60,4 @@
   cost: 2
   exclusive: true
   prototype: ClothingNeckScarfStripedZebra
-  sponsorOnly: true
+  sponsorOnly: false

@@ -81,7 +81,7 @@
   category: loadout-category-eyes
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingEyesGlassesCosmeticSunglasses
 
 - type: loadout
@@ -152,7 +152,7 @@
   category: loadout-category-eyes
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingEyesSalesman
 
 - type: loadout

@@ -85,7 +85,7 @@
   category: loadout-category-shoes
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingShoesTourist
 
 - type: loadout
@@ -100,7 +100,7 @@
   category: loadout-category-shoes
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   prototype: ClothingShoesBootsLaceup
 
 - type: loadout
@@ -108,7 +108,7 @@
   category: loadout-category-shoes
   cost: 2
   exclusive: true
-  sponsorOnly: true
+  sponsorOnly: false
   whitelistJobs:
     - Clown
   prototype: ClothingShoesJester
