@@ -101,3 +101,13 @@
   rules:
     - Pirates
     - BasicStationEventScheduler
+
+- type: gamePreset
+  id: Revolutionary
+  alias:
+  - Revolutionary
+  name: Revolutionary
+  description: Revolutionary
+  showInVote: false
+  rules:
+  - Revolutionary

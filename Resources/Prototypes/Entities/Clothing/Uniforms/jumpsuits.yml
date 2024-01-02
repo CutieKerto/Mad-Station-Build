@@ -231,6 +231,27 @@
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/clown.rsi
     femaleMask: UniformTop
+  - type: Tag
+    tags:
+    - ClownSuit
+
+- type: entity
+  parent: ClothingUniformJumpsuitClown
+  id: ClothingUniformJumpsuitClownBanana
+  name: banana clown suit
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/clown_banana.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/clown_banana.rsi
+    femaleMask: UniformTop
+  - type: Construction
+    graph: BananaClownJumpsuit
+    node: jumpsuit
+  - type: Armor
+    modifiers:
+      coefficients:
+        Radiation: 0.8
 
 - type: entity
   parent: ClothingUniformBase
@@ -524,6 +545,17 @@
       sprite: Clothing/Uniforms/Jumpsuit/qmturtle.rsi
     - type: Clothing
       sprite: Clothing/Uniforms/Jumpsuit/qmturtle.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCargoTurtleneck
+  name: cargo turtleneck
+  description: Heavy duty cargo pants and a sharp turtleneck made for the hardy work environment of supply.
+  components:
+    - type: Sprite
+      sprite: Clothing/Uniforms/Jumpsuit/cargoturtle.rsi
+    - type: Clothing
+      sprite: Clothing/Uniforms/Jumpsuit/cargoturtle.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -1664,3 +1696,14 @@
       sprite: Corvax/Clothing/Uniforms/Jumpsuit/centcom_admiral.rsi
     - type: Clothing
       sprite: Corvax/Clothing/Uniforms/Jumpsuit/centcom_admiral.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitFamilyGuy
+  name: familiar garbs
+  description: Makes you remember the time you did something funny.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/familiar_garbs.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/familiar_garbs.rsi

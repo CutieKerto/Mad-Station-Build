@@ -13,6 +13,14 @@
   prototype: ClothingHeadHatAnimalCatBrown
 
 - type: loadout
+  id: LoadoutHeadClothingHeadHatAnimalCatBlack
+  sponsorOnly: false
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  prototype: ClothingHeadHatAnimalCatBlack
+
+- type: loadout
   id: LoadoutHeadClothingHeadHatAnimalCat
   category: loadout-category-head
   cost: 1
@@ -73,7 +81,6 @@
   id: LoadoutHeadClothingHeadHatSquid
   category: loadout-category-head
   cost: 2
-  exclusive: true
   prototype: ClothingHeadHatSquid
 
 - type: loadout
@@ -88,5 +95,140 @@
   category: loadout-category-head
   cost: 2
   exclusive: true
-  sponsorOnly: false
   prototype: ClothingHeadPaperSackSmile
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatSurgcapPurple
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  sponsorOnly: false
+  prototype: ClothingHeadHatSurgcapPurple
+  whitelistJobs:
+    - ChiefMedicalOfficer
+    - Chemist
+    - Paramedic
+    - MedicalDoctor
+    - Psychologist
+    - MedicalIntern
+    - SeniorPhysician
+    - Coroner
+    - Brigmedic
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatSurgcapGreen
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  sponsorOnly: false
+  prototype: ClothingHeadHatSurgcapGreen
+  whitelistJobs:
+    - ChiefMedicalOfficer
+    - Chemist
+    - Paramedic
+    - MedicalDoctor
+    - Psychologist
+    - MedicalIntern
+    - SeniorPhysician
+    - Coroner
+    - Brigmedic
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatSurgcapBlue
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  sponsorOnly: false
+  prototype: ClothingHeadHatSurgcapBlue
+  whitelistJobs:
+    - ChiefMedicalOfficer
+    - Chemist
+    - Paramedic
+    - MedicalDoctor
+    - Psychologist
+    - MedicalIntern
+    - SeniorPhysician
+    - Coroner
+    - Brigmedic
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatFlowerCrown
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  sponsorOnly: false
+  prototype: ClothingHeadHatFlowerCrown
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatTophat
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  sponsorOnly: false
+  prototype: ClothingHeadHatTophat
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatMagician
+  category: loadout-category-head
+  cost: 5
+  exclusive: true
+  sponsorOnly: false
+  prototype: ClothingHeadHatMagician
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatSkub
+  category: loadout-category-head
+  cost: 5
+  exclusive: true
+  sponsorOnly: false
+  prototype: ClothingHeadHatSkub
+
+- type: loadout
+  id: LoadoutHeadClothingHeadPaperSack
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  sponsorOnly: false
+  prototype: ClothingHeadPaperSack
+
+- type: loadout
+  id: LoadoutHeadClothingHeadRastaHat
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  sponsorOnly: false
+  prototype: ClothingHeadRastaHat
+
+- type: loadout
+  id: LoadoutHeadMaterialHideCorgi
+  category: loadout-category-head
+  cost: 9
+  exclusive: true
+  sponsorOnly: false
+  prototype: MaterialHideCorgi
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatCardborg
+  category: loadout-category-head
+  cost: 4
+  exclusive: true
+  sponsorOnly: false
+  prototype: ClothingHeadHatCardborg
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatPumpkin
+  category: loadout-category-head
+  cost: 3
+  exclusive: true
+  sponsorOnly: false
+  prototype: ClothingHeadHatPumpkin
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatJester
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  sponsorOnly: false
+  whitelistJobs:
+    - Clown
+  prototype: ClothingHeadHatJester

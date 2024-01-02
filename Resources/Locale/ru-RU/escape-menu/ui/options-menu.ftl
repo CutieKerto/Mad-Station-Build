@@ -5,9 +5,18 @@ ui-options-tab-graphics = Графика
 ui-options-tab-controls = Управление
 ui-options-tab-audio = Аудио
 ui-options-tab-network = Сеть
+ui-options-tab-misc = Основное
 ui-options-apply = Применить
 ui-options-reset-all = Сбросить всё
 ui-options-default = По-умолчанию
+
+# Misc/General menu
+
+ui-options-discordrich = Включить Discord Rich Presence
+ui-options-general-discord = Discord
+ui-options-general-cursor = Курсор
+ui-options-general-speech = Речь
+ui-options-general-storage = Хранилище
 
 ## Audio menu
 
@@ -29,6 +38,8 @@ ui-options-volume-percent = { TOSTRING($volume, "P0") }
 ui-options-show-held-item = Показать удерживаемый элемент рядом с курсором?
 ui-options-show-combat-mode-indicators = Показать индикатор боевого режима рядом с курсором?
 ui-options-show-looc-on-head = Показать LOOC сообщения над головой персонажа?
+ui-options-fancy-speech = Показывать имена в сообщениях над головой персонажа?
+ui-options-fancy-name-background = Добавить задний фон к именам над головой персонажа?
 ui-options-vsync = Вертикальная синхронизация
 ui-options-fullscreen = Полный экран
 ui-options-lighting-label = Качество освещения:
@@ -104,6 +115,9 @@ ui-options-function-alt-activate-item-in-world = Альтернативно ис
 ui-options-function-drop = Положить предмет
 ui-options-function-examine-entity = Осмотреть
 ui-options-function-swap-hands = Поменять руки
+ui-options-function-move-stored-item = Двигать предмет в меню хранилища
+ui-options-function-rotate-stored-item = Вращать предмет в меню хранилища
+ui-options-static-storage-ui = Статическое меню хранилища
 ui-options-function-smart-equip-backpack = Умная экипировка в рюкзак
 ui-options-function-smart-equip-belt = Умная экипировка на пояс
 ui-options-function-throw-item-in-hand = Бросить предмет

@@ -19,6 +19,7 @@ using Robust.Shared.Physics.Components;
 using Robust.Shared.Physics.Systems;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
+using Robust.Shared.Timing;
 using Robust.Shared.Utility;
 
 namespace Content.Shared.Blocking;
@@ -36,6 +37,7 @@ public sealed partial class BlockingSystem : EntitySystem
     [Dependency] private readonly SharedPhysicsSystem _physics = default!;
     [Dependency] private readonly ExamineSystemShared _examine = default!;
     [Dependency] private readonly INetManager _net = default!;
+    [Dependency] private readonly IGameTiming _gameTiming = default!;
 
     public override void Initialize()
     {
@@ -87,12 +89,13 @@ public sealed partial class BlockingSystem : EntitySystem
 
     private void OnGetActions(EntityUid uid, BlockingComponent component, GetItemActionsEvent args)
     {
-        args.AddAction(ref component.BlockingToggleActionEntity, component.BlockingToggleAction);
+        if (component.AllowActiveBlocking)
+			args.AddAction(ref component.BlockingToggleActionEntity, component.BlockingToggleAction);
     }
 
     private void OnToggleAction(EntityUid uid, BlockingComponent component, ToggleActionEvent args)
     {
-        if (args.Handled)
+        if (args.Handled || !component.AllowActiveBlocking)
             return;
 
         var blockQuery = GetEntityQuery<BlockingComponent>();
@@ -126,7 +129,7 @@ public sealed partial class BlockingSystem : EntitySystem
     private void OnShutdown(EntityUid uid, BlockingComponent component, ComponentShutdown args)
     {
         //In theory the user should not be null when this fires off
-        if (component.User != null)
+        if (component.User != null && component.AllowActiveBlocking)
         {
             _actionsSystem.RemoveProvidedActions(component.User.Value, uid);
             StopBlockingHelper(uid, component, component.User.Value);
@@ -144,7 +147,7 @@ public sealed partial class BlockingSystem : EntitySystem
     /// <returns></returns>
     public bool StartBlocking(EntityUid item, BlockingComponent component, EntityUid user)
     {
-        if (component.IsBlocking)
+        if (component.IsBlocking || !component.AllowActiveBlocking)
             return false;
 
         var xform = Transform(user);
@@ -195,8 +198,12 @@ public sealed partial class BlockingSystem : EntitySystem
                 return false;
             }
             _actionsSystem.SetToggled(component.BlockingToggleActionEntity, true);
-            _popupSystem.PopupEntity(msgUser, user, user);
-            _popupSystem.PopupEntity(msgOther, user, Filter.PvsExcept(user), true);
+            if (_gameTiming.IsFirstTimePredicted)
+            {
+                _popupSystem.PopupEntity(msgOther, user, Filter.PvsExcept(user), true);
+                if(_gameTiming.InPrediction)
+                    _popupSystem.PopupEntity(msgUser, user, user);
+            }
         }
 
         if (TryComp<PhysicsComponent>(user, out var physicsComponent))
@@ -259,8 +266,12 @@ public sealed partial class BlockingSystem : EntitySystem
             _actionsSystem.SetToggled(component.BlockingToggleActionEntity, false);
             _fixtureSystem.DestroyFixture(user, BlockingComponent.BlockFixtureID, body: physicsComponent);
             _physics.SetBodyType(user, blockingUserComponent.OriginalBodyType, body: physicsComponent);
-            _popupSystem.PopupEntity(msgUser, user, user);
-            _popupSystem.PopupEntity(msgOther, user, Filter.PvsExcept(user), true);
+            if (_gameTiming.IsFirstTimePredicted)
+            {
+                _popupSystem.PopupEntity(msgOther, user, Filter.PvsExcept(user), true);
+                if(_gameTiming.InPrediction)
+                    _popupSystem.PopupEntity(msgUser, user, user);
+            }
         }
 
         component.IsBlocking = false;
@@ -304,7 +315,7 @@ public sealed partial class BlockingSystem : EntitySystem
 
     private void OnVerbExamine(EntityUid uid, BlockingComponent component, GetVerbsEvent<ExamineVerb> args)
     {
-        if (!args.CanInteract || !args.CanAccess || !_net.IsServer)
+        if (!args.CanInteract || !args.CanAccess || !_net.IsServer || component.Hidden)
             return;
 
         var fraction = component.IsBlocking ? component.ActiveBlockFraction : component.PassiveBlockFraction;

@@ -1,5 +1,5 @@
 ent-CrateServiceJanitorialSupplies = ящик с уборочным инвентарем
-    .desc = Победите копоть и грязь с Незаменимыми Припасами для Уборки от Qillu! Содержит три ведра, таблички мокрого пола, и очищающие гранаты. Также содержит одну швабру, тряпку, щётку, чистящий спрей, и мусорный пакет.
+    .desc = Победите копоть и грязь с Незаменимыми Припасами для Уборки от НаноТразен! Содержит три ведра, таблички мокрого пола, и очищающие гранаты. Также содержит одну швабру, тряпку, щётку, чистящий спрей, и мусорный пакет.
 ent-CrateServiceReplacementLights = ящик запасных лампочек
     .desc = Да воссияет над станцией Свет Эфира! Или хотя бы свет сорока двух лампочек-труб и двадцати одной обычной лампочки.
 ent-CrateMousetrapBoxes = ящик мышеловок
@@ -28,5 +28,7 @@ ent-CrateTrashCart = корзина для мусора
     .desc = { ent-CrateBaseWeldable.desc }
 ent-CrateTrashCartJani = уборочная корзина для мусора
     .desc = { ent-CrateBaseSecure.desc }
-ent-CrateServicePrinterInkCartridge = { ent-BookTerminalInkCartridge }
+ent-CrateServicePrinterInkCartridge = ящик с чернильным картриджем
     .desc = { ent-BookTerminalInkCartridge.desc }
+ent-CrateJanitorExplosive = { ent-ClosetJanitorBomb }
+    .desc = { ent-ClosetJanitorBomb.desc }
