@@ -217,7 +217,7 @@
   category: loadout-category-neck
   cost: 2
   exclusive: true
-  sponsorOnly: false
+  sponsorOnly: true
   prototype: BedsheetRainbow
 
 - type: loadout
@@ -225,5 +225,12 @@
   category: loadout-category-neck
   cost: 2
   exclusive: true
-  sponsorOnly: false
   prototype: BedsheetPurple
+
+- type: loadout
+  id: LoadoutNeckBedsheetBlack
+  category: loadout-category-neck
+  cost: 2
+  exclusive: true
+  sponsorOnly: true
+  prototype: BedsheetBlack

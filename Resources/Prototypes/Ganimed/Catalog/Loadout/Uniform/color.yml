@@ -101,7 +101,6 @@
   category: loadout-category-uniform
   cost: 1
   exclusive: false
-  sponsorOnly: false
   prototype: ClothingUniformColorRainbow
 
 - type: loadout
@@ -109,7 +108,6 @@
   category: loadout-category-uniform
   cost: 1
   exclusive: false
-  sponsorOnly: false
   prototype: ClothingUniformJumpskirtColorPink
 
 - type: loadout
@@ -117,7 +115,6 @@
   category: loadout-category-uniform
   cost: 1
   exclusive: false
-  sponsorOnly: false
   prototype: ClothingUniformJumpsuitColorPink
 
 - type: loadout
@@ -167,7 +164,7 @@
   category: loadout-category-uniform
   cost: 1
   exclusive: false
-  sponsorOnly: false
+  sponsorOnly: true
   prototype: ClothingUniformJumpsuitColorDarkGreen
 
 - type: loadout
@@ -175,7 +172,7 @@
   category: loadout-category-uniform
   cost: 1
   exclusive: false
-  sponsorOnly: false
+  sponsorOnly: true
   prototype: ClothingUniformJumpskirtColorDarkGreen
 
 - type: loadout
@@ -183,7 +180,7 @@
   category: loadout-category-uniform
   cost: 1
   exclusive: false
-  sponsorOnly: false
+  sponsorOnly: true
   prototype: ClothingUniformJumpsuitColorDarkBlue
 
 - type: loadout
@@ -191,7 +188,7 @@
   category: loadout-category-uniform
   cost: 1
   exclusive: false
-  sponsorOnly: false
+  sponsorOnly: true
   prototype: ClothingUniformJumpskirtColorDarkBlue
 
 - type: loadout
@@ -199,7 +196,6 @@
   category: loadout-category-uniform
   cost: 1
   exclusive: false
-  sponsorOnly: false
   prototype: ClothingUniformJumpsuitColorPurple
 
 - type: loadout
@@ -207,5 +203,20 @@
   category: loadout-category-uniform
   cost: 1
   exclusive: false
-  sponsorOnly: false
   prototype: ClothingUniformJumpskirtColorPurple
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitColorBlack
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: false
+  sponsorOnly: true
+  prototype: ClothingUniformJumpsuitColorBlack
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtColorBlack
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: false
+  sponsorOnly: true
+  prototype: ClothingUniformJumpskirtColorBlack

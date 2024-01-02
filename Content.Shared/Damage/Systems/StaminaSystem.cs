@@ -17,6 +17,7 @@ using Content.Shared.Inventory;
 using Content.Shared.Weapons.Melee.Events;
 using JetBrains.Annotations;
 using Robust.Shared.Audio;
+using Robust.Shared.Audio.Systems;
 using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Random;
@@ -254,11 +255,10 @@ public sealed partial class StaminaSystem : EntitySystem
             return;
 		
 		if (TryComp<InventoryComponent>(uid, out var _))
-			foreach (var slot in _inventorySystem.GetSlots(uid))
+			foreach (var slot in _inventorySystem.GetHandOrInventoryEntities(uid))
 			{
-				if (_inventorySystem.TryGetSlotEntity(uid, slot.Name, out var item))
-					if (TryComp<StaminaProtectionComponent>(item, out var stamProt))
-						value *= stamProt.Coefficient;   
+				if (TryComp<StaminaProtectionComponent>(slot, out var stamProt))
+					value *= stamProt.Coefficient;   
 			}
 
         var oldDamage = component.StaminaDamage;

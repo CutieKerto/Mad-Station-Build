@@ -1,7 +1,7 @@
 - type: loadout
   id: LoadoutBeltClothingBeltMilitaryWebbing
   category: loadout-category-belt
-  cost: 3
+  cost: 4
   exclusive: true
   whitelistJobs:
     - SecurityCadet
@@ -14,6 +14,35 @@
     - Brigmedic
     - BlueShield
   prototype: ClothingBeltMilitaryWebbing
+
+- type: loadout
+  id: LoadoutBeltClothingBeltSecurityWebbing
+  category: loadout-category-belt
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - SecurityCadet
+    - SecurityOfficer
+    - Warden
+    - Detective
+    - HeadOfSecurity
+    - Captain
+    - SeniorOfficer
+    - Brigmedic
+    - BlueShield
+  prototype: ClothingBeltSecurityWebbing
+
+- type: loadout
+  id: LoadoutBeltClothingBeltSalvageWebbing
+  category: loadout-category-belt
+  cost: 3
+  exclusive: true
+  sponsorOnly: true
+  whitelistJobs:
+    - CargoTechnician
+    - SalvageSpecialist
+    - Quartermaster
+  prototype: ClothingBeltSalvageWebbing
 
 - type: loadout
   id: LoadoutBeltClothingBeltMilitaryWebbingMed
@@ -113,7 +142,7 @@
   category: loadout-category-belt
   cost: 3
   exclusive: true
-  sponsorOnly: false
+  sponsorOnly: true
   whitelistJobs:
     - ChiefMedicalOfficer
     - Chemist
@@ -131,7 +160,7 @@
   category: loadout-category-belt
   cost: 3
   exclusive: true
-  sponsorOnly: false
+  sponsorOnly: true
   whitelistJobs:
     - SecurityCadet
     - SecurityOfficer
@@ -168,7 +197,6 @@
   category: loadout-category-belt
   cost: 7
   exclusive: true
-  sponsorOnly: false
   prototype: ClothingBeltChampion
 
 - type: loadout
@@ -179,3 +207,21 @@
   whitelistJobs:
     - Captain
   prototype: ClothingBeltSheath
+
+- type: loadout
+  id: LoadoutBeltClothingBeltAssault
+  category: loadout-category-belt
+  cost: 5
+  exclusive: true
+  whitelistJobs:
+    - SecurityCadet
+    - SecurityOfficer
+    - Warden
+    - Detective
+    - HeadOfSecurity
+    - Captain
+    - SeniorOfficer
+    - Brigmedic
+    - BlueShield
+  prototype: ClothingBeltAssault
+  sponsorOnly: true

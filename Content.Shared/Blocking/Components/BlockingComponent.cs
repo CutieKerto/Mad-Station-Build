@@ -48,6 +48,17 @@ public sealed partial class BlockingComponent : Component
     [DataField("activeBlockModifier", required: true)]
     public DamageModifierSet ActiveBlockDamageModifier = default!;
 
+    /// <summary>
+    /// Can actively block?
+    /// </summary>
+    [DataField("allowActiveBlocking")]
+    public bool AllowActiveBlocking = true;
+
+    /// <summary>
+    /// Hide blocking information?
+    /// </summary>
+    [DataField("hidden")]
+    public bool Hidden = false;
     [DataField("blockingToggleAction", customTypeSerializer: typeof(PrototypeIdSerializer<EntityPrototype>))]
     public string BlockingToggleAction = "ActionToggleBlock";
 
@@ -57,8 +68,11 @@ public sealed partial class BlockingComponent : Component
     /// <summary>
     /// The sound to be played when you get hit while actively blocking
     /// </summary>
-    [DataField("blockSound")]
-    public SoundSpecifier BlockSound = new SoundPathSpecifier("/Audio/Weapons/block_metal1.ogg");
+    [DataField("blockSound")] public SoundSpecifier BlockSound =
+        new SoundPathSpecifier("/Audio/Weapons/block_metal1.ogg")
+        {
+            Params = AudioParams.Default.WithVariation(0.25f)
+        };
 
     /// <summary>
     /// Fraction of original damage shield will take instead of user

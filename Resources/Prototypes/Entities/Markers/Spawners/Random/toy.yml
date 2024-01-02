@@ -12,7 +12,12 @@
       rarePrototypes:
         - FoamBlade
         - PlushieGhost
-      rareChance: 0.03
+        - Pillow1
+        - Pillow2
+        - Pillow3
+        - Pillow4
+        - Pillow5
+      rareChance: 0.05
       prototypes:
         - PlushieBee
         - PlushieAtmosian
@@ -132,5 +137,6 @@
       - ToyFigurineRatServant
       - ToyFigurineMouse
       - ToyFigurineHamlet
+      - ToyFigurineThief
       chance: 0.90
       offset: 0.2

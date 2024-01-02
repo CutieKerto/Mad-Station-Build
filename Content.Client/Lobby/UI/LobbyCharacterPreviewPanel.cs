@@ -122,7 +122,7 @@ namespace Content.Client.Lobby.UI
                         OverrideDirection = Direction.South,
                         Scale = new Vector2(4f, 4f),
                         MaxSize = new Vector2(112, 112),
-                        Stretch = SpriteView.StretchMode.None,
+                        Stretch = SpriteView.StretchMode.Fill,
                     };
                     spriteView.SetEntity(_previewDummy.Value);
                     _viewBox.AddChild(spriteView);
@@ -207,25 +207,28 @@ namespace Content.Client.Lobby.UI
                 // Automatically search empty slot for clothes to equip
                 string? firstSlotName = null;
                 var isEquipped = false;
-                foreach (var slot in invSystem.GetSlots(dummy))
-                {
-                    if (!clothing.Slots.HasFlag(slot.SlotFlags))
-                        continue;
+				if (invSystem.TryGetSlots(dummy, out var slotDefinitions))
+				{
+					foreach (var slot in slotDefinitions)
+					{
+						if (!clothing.Slots.HasFlag(slot.SlotFlags))
+							continue;
 
-                    firstSlotName ??= slot.Name;
+						firstSlotName ??= slot.Name;
 
-                    if (invSystem.TryGetSlotEntity(dummy, slot.Name, out var _))
-                        continue;
+						if (invSystem.TryGetSlotEntity(dummy, slot.Name, out var _))
+							continue;
 
-                    if (loadout.Exclusive && invSystem.TryUnequip(dummy, firstSlotName, out var removedItem, true, true))
-                        entMan.DeleteEntity(removedItem.Value);
+						if (loadout.Exclusive && invSystem.TryUnequip(dummy, firstSlotName, out var removedItem, true, true))
+							entMan.DeleteEntity(removedItem.Value);
 
-                    if (!invSystem.TryEquip(dummy, entity, slot.Name, true, true))
-                        continue;
+						if (!invSystem.TryEquip(dummy, entity, slot.Name, true, true))
+							continue;
 
-                    isEquipped = true;
-                    break;
-                }
+						isEquipped = true;
+						break;
+					}
+				}
 
                 if (isEquipped || firstSlotName == null)
                     continue;

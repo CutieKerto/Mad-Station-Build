@@ -63,7 +63,7 @@
   exclusive: true
   whitelistJobs:
     - Captain
-    - HeadOfPersonnnel
+    - HeadOfPersonnel
     - IAA
     - BlueShield
   prototype: ClothingHeadsetCommand
@@ -110,6 +110,18 @@
   prototype: ClothingHeadsetCargo
 
 - type: loadout
+  id: LoadoutEarsClothingHeadsetMining
+  category: loadout-category-ears
+  cost: 3
+  exclusive: true
+  sponsorOnly: true
+  whitelistJobs:
+    - Quartermaster
+    - SalvageSpecialist
+    - CargoTechnician
+  prototype: ClothingHeadsetMining
+
+- type: loadout
   id: LoadoutEarsClothingHeadsetGrey
   category: loadout-category-ears
   cost: 1
@@ -122,7 +134,7 @@
   cost: 1
   exclusive: true
   whitelistJobs:
-    - HeadOfPersonnnel
+    - HeadOfPersonnel
     - Bartender
     - Chef
     - Janitor
@@ -135,7 +147,7 @@
     - Lawyer
     - Librarian
     - Musician
-    - Zookeper
+    - Zookeeper
     - Reporter
   prototype: ClothingHeadsetService
 

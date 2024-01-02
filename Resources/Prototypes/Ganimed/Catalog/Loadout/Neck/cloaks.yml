@@ -150,7 +150,7 @@
   category: loadout-category-neck
   cost: 4
   exclusive: true
-  sponsorOnly: false
+  sponsorOnly: true
   prototype: ClothingNeckCloakGoliathCloak
 
 - type: loadout
@@ -158,7 +158,7 @@
   category: loadout-category-neck
   cost: 5
   exclusive: true
-  sponsorOnly: false
+  sponsorOnly: true
   prototype: ClothingNeckCloakPirateCap
 
 - type: loadout
@@ -184,7 +184,6 @@
   category: loadout-category-neck
   cost: 4
   exclusive: true
-  sponsorOnly: false
   whitelistJobs:
     - Captain
   prototype: ClothingNeckCloakCapFormal
