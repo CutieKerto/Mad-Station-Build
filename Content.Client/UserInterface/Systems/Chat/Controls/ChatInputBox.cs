@@ -1,4 +1,5 @@
-﻿using Content.Shared.Chat;
+﻿using Content.Client._MadStation.EmotionPanel;
+using Content.Shared.Chat;
 using Content.Shared.Input;
 using Robust.Client.UserInterface.Controls;
 
@@ -38,6 +39,17 @@ public class ChatInputBox : PanelContainer
             StyleClasses = {"chatLineEdit"}
         };
         Container.AddChild(Input);
+
+        //MadStation edit start
+        var emoteButton = new EmotionPanelToggleButton()
+        {
+            HorizontalAlignment = HAlignment.Center,
+            VerticalAlignment = VAlignment.Center,
+            StyleClasses = { "chatFilterOptionButton" }
+        };
+        Container.AddChild(emoteButton);
+        //MadStation edit end
+
         FilterButton = new ChannelFilterButton
         {
             Name = "FilterButton",
