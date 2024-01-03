@@ -1,0 +1,152 @@
+﻿- type: emote
+  id: Burp
+  chatMessages: [отрыгивает]
+
+- type: emote
+  id: Sniff
+  chatMessages: [нюхает]
+
+- type: emote
+  id: Sign
+  chatMessages: [указывает]
+
+- type: emote
+  id: Blink
+  chatMessages: [моргает]
+
+- type: emote
+  id: Blush
+  chatMessages: [краснеет]
+
+- type: emote
+  id: Bow
+  chatMessages: [кланяется]
+
+- type: emote
+  id: Choke
+  chatMessages: [задыхается]
+
+- type: emote
+  id: Drool
+  chatMessages: [пускает слюни]
+
+- type: emote
+  id: Exhale
+  chatMessages: [выдыхает]
+
+- type: emote
+  id: Inhale
+  chatMessages: [вдыхает]
+
+- type: emote
+  id: Frown
+  chatMessages: [хмурится]
+
+- type: emote
+  id: Gag
+  chatMessages: [давится]
+
+- type: emote
+  id: Grin
+  chatMessages: [скалится]
+
+- type: emote
+  id: Look
+  chatMessages: [осматривается]
+
+- type: emote
+  id: Moan
+  chatMessages: [стонет]
+
+- type: emote
+  id: Mumble
+  chatMessages: [бормочет]
+
+- type: emote
+  id: Nod
+  chatMessages: [кивает]
+
+- type: emote
+  id: Scowl
+  chatMessages: [хмурится]
+
+- type: emote
+  id: Shrug
+  chatMessages: [пожимает плечами]
+
+- type: emote
+  id: Smile
+  chatMessages: [улыбается]
+
+- type: emote
+  id: Smug
+  chatMessages: [выглядит довольным]
+
+- type: emote
+  id: Stare
+  chatMessages: [пялится]
+
+- type: emote
+  id: Stretch
+  chatMessages: [потягивается]
+
+- type: emote
+  id: Sulk
+  chatMessages: [дуется]
+
+- type: emote
+  id: Sway
+  chatMessages: [покачивает головой]
+
+- type: emote
+  id: Tilt
+  chatMessages: [наклоняется]
+
+- type: emote
+  id: Tremble
+  chatMessages: [дрожит]
+
+- type: emote
+  id: Twitch
+  chatMessages: [подергивается]
+
+- type: emote
+  id: Wave
+  chatMessages: [машет рукой]
+
+- type: emote
+  id: Whimper
+  chatMessages: [хнычит]
+
+- type: emote
+  id: Wink
+  chatMessages: [подмигивает]
+
+- type: emote
+  id: Annoyed
+  chatMessages: [выглядит раздраженным]
+
+- type: emote
+  id: BlinkRapidly
+  chatMessages: [быстро моргает]
+
+- type: emote
+  id: ClearThroat
+  chatMessages: [прочищает горло]
+
+- type: emote
+  id: Eyeroll
+  chatMessages: [закатывает глаза]
+
+- type: emote
+  id: Huff
+  chatMessages: [пыхтит]
+
+- type: emote
+  id: Smirk
+  chatMessages: [ухмыляется]
+
+- type: emote
+  id: Squint
+  chatMessages: [щурится]
+

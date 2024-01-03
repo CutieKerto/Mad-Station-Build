@@ -1,0 +1,19 @@
+<windows:EmotionPanel
+    xmlns="https://spacestation14.io"
+    xmlns:windows="clr-namespace:Content.Client._MadStation.EmotionPanel"
+    Title="Эмоции"
+    VerticalExpand="True"
+    HorizontalExpand="True"
+    MinHeight="400"
+    MinWidth="400">
+    <TabContainer Name="TabContainer" HorizontalExpand="True" VerticalExpand="True">
+        <ScrollContainer>
+            <GridContainer HorizontalExpand="True" Name="EmotionsContainer" Access="Private" Columns="2"/>
+        </ScrollContainer>
+
+        <ScrollContainer>
+            <GridContainer HorizontalExpand="True" Name="FavoritesContainer" Access="Private" Columns="2"/>
+        </ScrollContainer>
+    </TabContainer>
+
+</windows:EmotionPanel>

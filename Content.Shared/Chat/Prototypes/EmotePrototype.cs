@@ -34,6 +34,12 @@ public sealed partial class EmotePrototype : IPrototype
     /// </summary>
     [DataField("chatTriggers")]
     public HashSet<string> ChatTriggers = new();
+
+    //MadStation edit start
+    [DataField("hideInEmotePanel")]
+    public bool HideInEmotePanel = false;
+
+    //MadStation edit end
 }
 
 /// <summary>
