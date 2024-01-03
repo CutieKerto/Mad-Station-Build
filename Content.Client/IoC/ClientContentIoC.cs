@@ -1,3 +1,4 @@
+using Content.Client._MadStation.EmotionPanel;
 using Content.Client.Administration.Managers;
 using Content.Client.Changelog;
 using Content.Client.Chat.Managers;
@@ -49,6 +50,7 @@ namespace Content.Client.IoC
             IoCManager.Register<JobRequirementsManager>();
             IoCManager.Register<DocumentParsingManager>();
             IoCManager.Register<ContentReplayPlaybackManager, ContentReplayPlaybackManager>();
+            IoCManager.Register<FavoriteEmotesManager>();
         }
     }
 }
