@@ -33,6 +33,7 @@
 - type: emote
   id: RobotBeep
   category: Vocal
+  hideInEmotePanel : true
   chatMessages: [beeps]
 
 - type: emote

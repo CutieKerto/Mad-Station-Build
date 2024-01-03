@@ -89,6 +89,7 @@
 - type: emote
   id: Honk
   category: Vocal
+  hideInEmotePanel : true
   chatMessages: [honks]
 
 - type: emote
@@ -182,7 +183,7 @@
 - type: emote
   id: Chitter
   category: Vocal
-  chatMessages: [chitters.]
+  chatMessages: [чирикает] # MadStation-Localization
   chatTriggers:
    - chitter
    - chitter.
@@ -197,7 +198,7 @@
 - type: emote
   id: Squeak
   category: Vocal
-  chatMessages: [squeaks.]
+  chatMessages: [пищит.] # MadStation-Localization
   chatTriggers:
    - squeak
    - squeak.
@@ -229,7 +230,7 @@
 - type: emote
   id: Clap
   category: Hands
-  chatMessages: [хлопает!] # Corvax-Localization
+  chatMessages: [хлопает] # Corvax-Localization
   chatTriggers:
     - clap
     - claps
@@ -323,5 +324,6 @@
 - type: emote
   id: DefaultDeathgasp
   chatMessages: ["emote-deathgasp"]
+  hideInEmotePanel: true
   chatTriggers:
   - deathgasp
