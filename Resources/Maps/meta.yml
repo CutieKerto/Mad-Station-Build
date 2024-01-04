@@ -58324,29 +58324,6 @@ entities:
         - 0
         - 0
       type: EntityStorage
-  - uid: 12731
-    components:
-    - pos: 37.5,22.5
-      parent: 5350
-      type: Transform
-    - air:
-        volume: 200
-        immutable: False
-        temperature: 293.1495
-        moles:
-        - 3.848459
-        - 14.477538
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-      type: EntityStorage
   - uid: 13624
     components:
     - pos: 36.5,48.5
@@ -60923,6 +60900,16 @@ entities:
     - pos: 19.461918,-59.533348
       parent: 5350
       type: Transform
+    - containers:
+        item: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+        storagebase: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
+      type: ContainerContainer
 - proto: ClothingShoesBootsMag
   entities:
   - uid: 1514
@@ -134643,6 +134630,43 @@ entities:
     - pos: -64.500496,-45.428608
       parent: 5350
       type: Transform
+- proto: SmartFridge
+  entities:
+  - uid: 2351
+    components:
+    - flags: SessionSpecific
+      type: MetaData
+    - pos: 29.5,-14.5
+      parent: 5350
+      type: Transform
+  - uid: 14591
+    components:
+    - flags: SessionSpecific
+      type: MetaData
+    - pos: -19.5,-28.5
+      parent: 5350
+      type: Transform
+  - uid: 15157
+    components:
+    - flags: SessionSpecific
+      type: MetaData
+    - pos: -30.5,-50.5
+      parent: 5350
+      type: Transform
+  - uid: 15158
+    components:
+    - flags: SessionSpecific
+      type: MetaData
+    - pos: -28.5,-50.5
+      parent: 5350
+      type: Transform
+  - uid: 16439
+    components:
+    - flags: SessionSpecific
+      type: MetaData
+    - pos: -52.5,-49.5
+      parent: 5350
+      type: Transform
 - proto: SMESBasic
   entities:
   - uid: 9518
@@ -144031,43 +144055,6 @@ entities:
     - pos: 28.5,-20.5
       parent: 5350
       type: Transform
-- proto: VendingMachineSmartFridge
-  entities:
-  - uid: 2351
-    components:
-    - flags: SessionSpecific
-      type: MetaData
-    - pos: 29.5,-14.5
-      parent: 5350
-      type: Transform
-  - uid: 14591
-    components:
-    - flags: SessionSpecific
-      type: MetaData
-    - pos: -19.5,-28.5
-      parent: 5350
-      type: Transform
-  - uid: 15157
-    components:
-    - flags: SessionSpecific
-      type: MetaData
-    - pos: -30.5,-50.5
-      parent: 5350
-      type: Transform
-  - uid: 15158
-    components:
-    - flags: SessionSpecific
-      type: MetaData
-    - pos: -28.5,-50.5
-      parent: 5350
-      type: Transform
-  - uid: 16439
-    components:
-    - flags: SessionSpecific
-      type: MetaData
-    - pos: -52.5,-49.5
-      parent: 5350
-      type: Transform
 - proto: VendingMachineSnack
   entities:
   - uid: 1178
@@ -144201,6 +144188,18 @@ entities:
     - flags: SessionSpecific
       type: MetaData
     - pos: -41.5,-12.5
+      parent: 5350
+      type: Transform
+- proto: VendingMachineUnderwear
+  entities:
+  - uid: 11599
+    components:
+    - pos: 37.5,22.5
+      parent: 5350
+      type: Transform
+  - uid: 12731
+    components:
+    - pos: 25.5,12.5
       parent: 5350
       type: Transform
 - proto: VendingMachineVendomat

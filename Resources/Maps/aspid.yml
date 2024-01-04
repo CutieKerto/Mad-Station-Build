@@ -49438,6 +49438,16 @@ entities:
     - pos: 37.606995,50.742104
       parent: 1
       type: Transform
+    - containers:
+        item: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+        storagebase: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
+      type: ContainerContainer
 - proto: ClothingShoesBootsMag
   entities:
   - uid: 4367
@@ -94317,11 +94327,6 @@ entities:
     - pos: -42.5,-4.5
       parent: 1
       type: Transform
-  - uid: 8591
-    components:
-    - pos: -27.5,11.5
-      parent: 1
-      type: Transform
 - proto: RandomVendingSnacks
   entities:
   - uid: 3726
@@ -99661,6 +99666,15 @@ entities:
     components:
     - rot: -1.5707963267948966 rad
       pos: 22.5,-3.5
+      parent: 1
+      type: Transform
+- proto: SmartFridge
+  entities:
+  - uid: 9047
+    components:
+    - flags: SessionSpecific
+      type: MetaData
+    - pos: 6.5,3.5
       parent: 1
       type: Transform
 - proto: SMESBasic
@@ -106383,15 +106397,6 @@ entities:
     - pos: -35.5,49.5
       parent: 1
       type: Transform
-- proto: VendingMachineSmartFridge
-  entities:
-  - uid: 9047
-    components:
-    - flags: SessionSpecific
-      type: MetaData
-    - pos: 6.5,3.5
-      parent: 1
-      type: Transform
 - proto: VendingMachineSnack
   entities:
   - uid: 9435
@@ -106477,6 +106482,18 @@ entities:
     - flags: SessionSpecific
       type: MetaData
     - pos: 19.5,43.5
+      parent: 1
+      type: Transform
+- proto: VendingMachineUnderwear
+  entities:
+  - uid: 6083
+    components:
+    - pos: -27.5,11.5
+      parent: 1
+      type: Transform
+  - uid: 8563
+    components:
+    - pos: 23.5,43.5
       parent: 1
       type: Transform
 - proto: VendingMachineVendomat
@@ -117371,31 +117388,6 @@ entities:
   - uid: 6082
     components:
     - pos: 18.5,43.5
-      parent: 1
-      type: Transform
-    - air:
-        volume: 200
-        immutable: False
-        temperature: 293.1496
-        moles:
-        - 3.4430928
-        - 12.952587
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-      type: EntityStorage
-- proto: WardrobeGreenFilled
-  entities:
-  - uid: 6083
-    components:
-    - pos: 23.5,43.5
       parent: 1
       type: Transform
     - air:
