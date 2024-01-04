@@ -17,7 +17,7 @@
       tags:
         - DroneUsable
     - type: Sprite
-      sprite: Structures/Machines/VendingMachines/clothing.rsi
+      sprite: _MadStation/Structures/Machines/VendingMachines/underwear.rsi
       layers:
         - state: "off"
           map: ["enum.VendingMachineVisualLayers.Base"]
