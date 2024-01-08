@@ -28,6 +28,6 @@
     id: SecurityCadetPDA
     ears: ClothingHeadsetSecurity
     pocket1: WeaponPistolMk58Nonlethal
-  innerClothingskirt: ClothingUniformJumpskirtSecGrey
+  innerClothingSkirt: ClothingUniformJumpskirtSecGrey
   satchel: ClothingBackpackSatchelSecurityFilled
   duffelbag: ClothingBackpackDuffelSecurityFilled

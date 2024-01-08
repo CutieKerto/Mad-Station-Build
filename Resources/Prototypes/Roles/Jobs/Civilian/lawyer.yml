@@ -32,6 +32,6 @@
     # TODO add copy of space law
   inhand:
     - BriefcaseBrownLegalFilled
-  innerClothingskirt: ClothingUniformJumpskirtLawyerBlack
+  innerClothingSkirt: ClothingUniformJumpskirtLawyerBlack
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled

@@ -16,6 +16,6 @@
     id: PrisonerIDCard
     gloves: ClothingHandsGlovesColorOrange
     shoes: ClothingShoesPrisoner
-  innerClothingskirt: ClothingUniformJumpskirtPrisoner
+  innerClothingSkirt: ClothingUniformJumpskirtPrisoner
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled
