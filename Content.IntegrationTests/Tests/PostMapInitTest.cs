@@ -73,6 +73,7 @@ namespace Content.IntegrationTests.Tests
 			"CorvaxSilly",
 			"CorvaxGate",
 			"CorvaxAvrite",
+            "CorvaxDelta",
             "Gemini",
             "MeteorArena",
             "Atlas"
