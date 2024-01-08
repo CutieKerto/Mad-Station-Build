@@ -271,5 +271,3 @@
   components:
   - type: Sprite
     sprite: Corvax/Back/Duffels/military.rsi
-  - type: Storage
-    maxTotalWeight: 56
