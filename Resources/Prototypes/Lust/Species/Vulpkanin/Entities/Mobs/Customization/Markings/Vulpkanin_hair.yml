@@ -66,7 +66,6 @@
   bodyPart: Hair
   markingCategory: Hair
   speciesRestriction: [VulpkaninSpecies]
-  sponsorOnly: false
   sprites:
     - sprite: Mobs/Customization/vulpkanin_hair.rsi
       state: hair_sponsor
@@ -85,7 +84,6 @@
   bodyPart: Hair
   markingCategory: Hair
   speciesRestriction: [VulpkaninSpecies]
-  sponsorOnly: false
   sprites:
     - sprite: Mobs/Customization/vulpkanin_hair.rsi
       state: jagged_sponsor_hair
@@ -185,7 +183,6 @@
   bodyPart: Hair
   markingCategory: Hair
   speciesRestriction: [VulpkaninSpecies]
-  sponsorOnly: false
   sprites:
     - sprite: Mobs/Customization/vulpkanin_hair.rsi
       state: ykiteru_sponsor_hair

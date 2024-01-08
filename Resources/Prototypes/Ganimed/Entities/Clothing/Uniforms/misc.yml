@@ -26,7 +26,7 @@
   parent: ClothingUniformJumpskirtCapFormalDress
   id: ClothingUniformJumpskirtCapFormalDressAlter
   name: formal blue dress
-  desc: Posh and polish all over the wear. You are the main star of the show.
+  description: Posh and polish all over the wear. You are the main star of the show.
   components:
   - type: Sprite
     sprite: Ganimed/Clothing/Uniforms/capformaldress.rsi

@@ -120,7 +120,7 @@
 - type: entity
   id: BookTerminalFilled
   parent: BookTerminal
-  prefix: Filled
+  suffix: Filled
   components:
   - type: ContainerFill
     containers:

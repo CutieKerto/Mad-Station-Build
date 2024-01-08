@@ -342,5 +342,4 @@
       collection: Screwdriver
   - type: Item
     sprite: Ganimed/Objects/pens.rsi
-    state: fountain_black
     size: Tiny

@@ -99,8 +99,6 @@
     enabled: true
     reflectProb: .80
     spread: 30
-    factions:
-      - SimpleHostile
   - type: Destructible
     thresholds:
     - trigger:

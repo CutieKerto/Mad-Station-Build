@@ -15,7 +15,7 @@
   - type: Gun
     fireRate: 1
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/sharpshooter.ogg
+      path: /Audio/Weapons/Guns/Gunshots/revolver.ogg
   - type: RevolverAmmoProvider
     capacity: 10
     chambers: [ True, True, True, True, True, True, True, True, True, True ]
