@@ -1130,3 +1130,13 @@
 
 - type: Tag
   id:  boots
+
+#MadStation Start
+- type: Tag
+  id: underwearTop
+
+- type: Tag
+  id: underwearBottom
+
+
+#MadStation End

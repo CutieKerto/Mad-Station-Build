@@ -1,0 +1,32 @@
+﻿- type: entity
+  parent: VendingMachine
+  id: VendingMachineUnderwear
+  name: UnderMate
+  description: A vending machine for underwear.
+  components:
+    - type: VendingMachine
+      pack: UnderwearMateInventory
+      offState: off
+      brokenState: broken
+      normalState: normal-unshaded
+      denyState: deny-unshaded
+    - type: Advertise
+      pack: ClothesMateAds
+    - type: Speech
+    - type: Tag
+      tags:
+        - DroneUsable
+    - type: Sprite
+      sprite: _MadStation/Structures/Machines/VendingMachines/underwear.rsi
+      layers:
+        - state: "off"
+          map: ["enum.VendingMachineVisualLayers.Base"]
+        - state: "off"
+          map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+          shader: unshaded
+        - state: panel
+          map: ["enum.WiresVisualLayers.MaintenancePanel"]
+    - type: PointLight
+      radius: 1.8
+      energy: 1.6
+      color: "#ac3bb8"

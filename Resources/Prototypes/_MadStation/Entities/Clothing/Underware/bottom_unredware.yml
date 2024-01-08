@@ -1,0 +1,182 @@
+﻿- type: entity
+  abstract: true
+  parent: Clothing
+  id: ClothingUnderwearBottomBase
+  components:
+    - type: Sprite
+      state: icon
+    - type: Item
+      size: Small
+    - type: Clothing
+      slots: [underwearBottom]
+    - type: Tag
+      tags:
+        - underwearBottom
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearPanties
+  name: panties
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Bottom/panties.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearPantiesAlt
+  name: panties
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Bottom/panties_alt.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearPantiesAssBlastUsa
+  name: panties
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Bottom/panties_assblastusa.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearPantiesBeeKini
+  name: panties
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Bottom/panties_bee-kini.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearPantiesCommie
+  name: panties
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Bottom/panties_commie.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearPantiesKinky
+  name: panties
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Bottom/panties_kinky.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearPantiesNeko
+  name: panties
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Bottom/panties_neko.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearPantiesSwimming
+  name: panties
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Bottom/panties_swimming.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearPantiesThin
+  name: panties
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Bottom/panties_thin.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearPantiesStriped
+  name: panties
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Bottom/striped_panties.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearPantiesThong
+  name: panties
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Bottom/thong.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearBoxers
+  name: boxers
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Bottom/boxers.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearBoxersBriefs
+  name: boxers
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Bottom/boxer_briefs.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearBoxersAssBlastUsa
+  name: boxers
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Bottom/boxers_assblastusa.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearBoxersCommie
+  name: boxers
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Bottom/boxers_commie.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearBoxersHeart
+  name: boxers
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Bottom/boxers_heart.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearBoxersStriped
+  name: boxers
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Bottom/boxers_striped.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearBriefs
+  name: briefs
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Bottom/briefs.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearFishnetLower
+  name: fishnet
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Bottom/fishnet_lower.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearJockstrap
+  name: jockstrap
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Bottom/jockstrap.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearMankini
+  name: mankini
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Bottom/mankini.rsi

@@ -52296,11 +52296,31 @@ entities:
     - pos: -17.481518,-2.6493702
       parent: 30
       type: Transform
+    - containers:
+        item: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+        storagebase: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
+      type: ContainerContainer
   - uid: 15998
     components:
     - pos: 18.534737,37.3554
       parent: 30
       type: Transform
+    - containers:
+        item: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+        storagebase: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
+      type: ContainerContainer
 - proto: ClothingShoesBootsMag
   entities:
   - uid: 790
@@ -115290,6 +115310,36 @@ entities:
       pos: 18.5,14.5
       parent: 30
       type: Transform
+- proto: SmartFridge
+  entities:
+  - uid: 315
+    components:
+    - flags: SessionSpecific
+      type: MetaData
+    - pos: -18.5,9.5
+      parent: 30
+      type: Transform
+  - uid: 6666
+    components:
+    - flags: SessionSpecific
+      type: MetaData
+    - pos: -10.5,-10.5
+      parent: 30
+      type: Transform
+  - uid: 7149
+    components:
+    - flags: SessionSpecific
+      type: MetaData
+    - pos: -25.5,-21.5
+      parent: 30
+      type: Transform
+  - uid: 9667
+    components:
+    - flags: SessionSpecific
+      type: MetaData
+    - pos: -9.5,-21.5
+      parent: 30
+      type: Transform
 - proto: SMESBasic
   entities:
   - uid: 5472
@@ -123528,36 +123578,6 @@ entities:
     - pos: -51.5,68.5
       parent: 30
       type: Transform
-- proto: VendingMachineSmartFridge
-  entities:
-  - uid: 315
-    components:
-    - flags: SessionSpecific
-      type: MetaData
-    - pos: -18.5,9.5
-      parent: 30
-      type: Transform
-  - uid: 6666
-    components:
-    - flags: SessionSpecific
-      type: MetaData
-    - pos: -10.5,-10.5
-      parent: 30
-      type: Transform
-  - uid: 7149
-    components:
-    - flags: SessionSpecific
-      type: MetaData
-    - pos: -25.5,-21.5
-      parent: 30
-      type: Transform
-  - uid: 9667
-    components:
-    - flags: SessionSpecific
-      type: MetaData
-    - pos: -9.5,-21.5
-      parent: 30
-      type: Transform
 - proto: VendingMachineSovietSoda
   entities:
   - uid: 16926
@@ -123632,6 +123652,18 @@ entities:
     - flags: SessionSpecific
       type: MetaData
     - pos: 4.5,15.5
+      parent: 30
+      type: Transform
+- proto: VendingMachineUnderwear
+  entities:
+  - uid: 8774
+    components:
+    - pos: 24.5,40.5
+      parent: 30
+      type: Transform
+  - uid: 11194
+    components:
+    - pos: 25.5,33.5
       parent: 30
       type: Transform
 - proto: VendingMachineVendomat

@@ -1,3 +1,4 @@
+using Content.Shared.Humanoid;
 using Content.Shared.Preferences;
 using Robust.Shared.Prototypes;
 
@@ -14,6 +15,17 @@ namespace Content.Shared.Roles
         /// </summary>
         [DataField]
         public EntProtoId? InnerClothingSkirt;
+
+        //MadStation start
+        [DataField("femaleTop")]
+        public EntProtoId? FemaleDefaultTop = "ClothingUnderwearTopBraAlt";
+
+        [DataField("femaleBottom")]
+        public EntProtoId? DefaultFemaleBottom = "ClothingUnderwearPanties";
+
+        [DataField("maleBottom")]
+        public EntProtoId? DefaultMaleBottom = "ClothingUnderwearBoxers";
+        //MadStation end
 
         [DataField]
         public EntProtoId? Satchel;
@@ -38,6 +50,25 @@ namespace Content.Shared.Roles
                     return Satchel;
                 if (slot == "back" && profile.Backpack == BackpackPreference.Duffelbag && !string.IsNullOrEmpty(Duffelbag))
                     return Duffelbag;
+
+                //MadStation start
+                if (slot == "underwearTop" && profile.Sex == Sex.Female && !string.IsNullOrEmpty(FemaleDefaultTop))
+                {
+                    return FemaleDefaultTop;
+                }
+
+                if (slot == "underwearBottom")
+                {
+                    if (profile.Sex == Sex.Female && !string.IsNullOrEmpty(DefaultFemaleBottom))
+                    {
+                        return DefaultFemaleBottom;
+                    }
+                    else if (!string.IsNullOrEmpty(DefaultMaleBottom))
+                    {
+                        return DefaultMaleBottom;
+                    }
+                }
+                //MadStation end
             }
 
             return Equipment.TryGetValue(slot, out var equipment) ? equipment : string.Empty;

@@ -1,0 +1,240 @@
+﻿- type: entity
+  abstract: true
+  parent: Clothing
+  id: ClothingUnderwearTopBase
+  components:
+    - type: Sprite
+      state: icon
+    - type: Item
+      size: 1
+    - type: Clothing
+      slots: [underwearTop]
+    - type: Tag
+      tags:
+        - underwearTop
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopBra
+  name: bra
+  description: bra
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Top/bra.rsi
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopBraAlt
+  name: bra
+  description: bra
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Top/bra_alt.rsi
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopBraAssBlastUsa
+  name: bra
+  description: bra
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Top/bra_assblastusa.rsi
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopBraBeeKini
+  name: bra
+  description: bra
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Top/bra_bee-kini.rsi
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopBraBinder
+  name: bra
+  description: bra
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Top/bra_binder.rsi
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopBraBinderStrapless
+  name: bra
+  description: bra
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Top/bra_binder_strapless.rsi
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopBraKinky
+  name: bra
+  description: bra
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Top/bra_kinky.rsi
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopBraNeko
+  name: bra
+  description: bra
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Top/bra_neko.rsi
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopBraStrapless
+  name: bra
+  description: bra
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Top/bra_strapless.rsi
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopBraStraplessAlt
+  name: bra
+  description: bra
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Top/bra_strapless_alt.rsi
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopBraSwimming
+  name: bra
+  description: bra
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Top/bra_swimming.rsi
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopBraSwimmingAlt
+  name: bra
+  description: bra
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Top/bra_swimming_alt.rsi
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopBraThin
+  name: bra
+  description: bra
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Top/bra_thin.rsi
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopFishnetBody
+  name: bra
+  description: bra
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Top/fishnet_body.rsi
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopFishnetGloves
+  name: bra
+  description: bra
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Top/fishnet_gloves.rsi
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopFishnetSleeves
+  name: bra
+  description: bra
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Top/fishnet_sleeves.rsi
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopHalterneckBra
+  name: bra
+  description: bra
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Top/halterneck_bra.rsi
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopShibari
+  name: bra
+  description: bra
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Top/shibari.rsi
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopShibariSleeves
+  name: bra
+  description: bra
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Top/shibari_sleeves.rsi
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopSportsBra
+  name: bra
+  description: bra
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Top/sports_bra.rsi
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopSportsBraAlt
+  name: bra
+  description: bra
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Top/sports_bra_alt.rsi
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopStripedBra
+  name: bra
+  description: bra
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Top/striped_bra.rsi
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopTankMidriff
+  name: bra
+  description: bra
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Top/tank_midriff.rsi
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopTankMidriffAlt
+  name: bra
+  description: bra
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Top/tank_midriff_alt.rsi
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopTubetop
+  name: bra
+  description: bra
+  components:
+    - type: Sprite
+      sprite: _MadStation/Clothing/Top/tubetop.rsi
+

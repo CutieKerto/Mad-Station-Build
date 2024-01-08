@@ -27243,6 +27243,16 @@ entities:
     - pos: 41.713104,-10.668272
       parent: 31
       type: Transform
+    - containers:
+        item: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+        storagebase: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
+      type: ContainerContainer
 - proto: ClothingShoesBootsMag
   entities:
   - uid: 1014
@@ -32361,7 +32371,7 @@ entities:
     - pos: 38.5,-5.5
       parent: 31
       type: Transform
-    - secondsUntilStateChange: -1551.9772
+    - secondsUntilStateChange: -1591.4772
       state: Closing
       type: Door
   - uid: 4019
@@ -56418,6 +56428,22 @@ entities:
     - pos: -1.5876693,-19.53403
       parent: 31
       type: Transform
+- proto: SmartFridge
+  entities:
+  - uid: 735
+    components:
+    - flags: SessionSpecific
+      type: MetaData
+    - pos: 16.5,-3.5
+      parent: 31
+      type: Transform
+  - uid: 918
+    components:
+    - flags: SessionSpecific
+      type: MetaData
+    - pos: -15.5,1.5
+      parent: 31
+      type: Transform
 - proto: SMESBasic
   entities:
   - uid: 4340
@@ -60817,22 +60843,6 @@ entities:
     - pos: -19.5,9.5
       parent: 31
       type: Transform
-- proto: VendingMachineSmartFridge
-  entities:
-  - uid: 735
-    components:
-    - flags: SessionSpecific
-      type: MetaData
-    - pos: 16.5,-3.5
-      parent: 31
-      type: Transform
-  - uid: 918
-    components:
-    - flags: SessionSpecific
-      type: MetaData
-    - pos: -15.5,1.5
-      parent: 31
-      type: Transform
 - proto: VendingMachineSnack
   entities:
   - uid: 133
@@ -60913,6 +60923,18 @@ entities:
     - flags: SessionSpecific
       type: MetaData
     - pos: -19.5,-4.5
+      parent: 31
+      type: Transform
+- proto: VendingMachineUnderwear
+  entities:
+  - uid: 3862
+    components:
+    - pos: -25.5,2.5
+      parent: 31
+      type: Transform
+  - uid: 4195
+    components:
+    - pos: -25.5,-13.5
       parent: 31
       type: Transform
 - proto: VendingMachineVendomat
