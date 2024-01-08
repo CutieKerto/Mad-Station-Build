@@ -13,17 +13,17 @@
     - type: RoarAccent
     - type: Hunger
     - type: Thirst
-    - type: Vocal
-      sounds:
-        Male: UnisexVulp
-        Female: UnisexVulp
-        Unsexed: UnisexVulp
+ #   - type: Vocal #No sounds rn
+  #    sounds:
+   #     Male: UnisexVulp
+    #    Female: UnisexVulp
+     #   Unsexed: UnisexVulp
     - type: Icon
       sprite: DeadSpace/Mobs/Species/Vulpkanin/parts.rsi
       state: full
     - type: Damageable
       damageContainer: Biological
-      damageModifierSet: Fur
+      damageModifierSet: Moth # moth rn, change to fur later
     - type: MeleeWeapon
       hidden: true
       soundHit:
