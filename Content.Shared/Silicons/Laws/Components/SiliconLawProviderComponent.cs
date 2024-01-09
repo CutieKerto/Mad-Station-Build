@@ -19,7 +19,7 @@ public sealed partial class SiliconLawProviderComponent : Component
     /// Weighted random override for lawset provided.
     /// </summary>
     [DataField(required: false)]
-    public ProtoId<WeightedRandomPrototype>? LawsWeighted = string.Empty;
+    public ProtoId<WeightedRandomPrototype>? LawsWeighted;
 
     /// <summary>
     /// Lawset created from the prototype id.
