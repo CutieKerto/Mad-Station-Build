@@ -1,15 +1,15 @@
-﻿using Content.Shared._MadStation.Cvars;
-using Content.Shared.Anomaly.Components;
+﻿using Content.Server.Forensics;
+using Content.Server.Station.Systems;
+using Content.Server.StationRecords.Systems;
+using Content.Shared._MadStation.Cvars;
 using Content.Shared.Mind;
 using Content.Shared.Pulling.Components;
 using Content.Shared.Roles.Jobs;
-using Content.Shared.Sound.Components;
 using Content.Shared.SSDIndicator;
+using Content.Shared.StationRecords;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Configuration;
-using Robust.Shared.Map;
 using Robust.Shared.Random;
-using Robust.Shared.Spawners;
 using Robust.Shared.Timing;
 
 namespace Content.Server._MadStation;
@@ -21,9 +21,9 @@ public sealed class SsdTeleportationSystem : EntitySystem
     [Dependency] private readonly SharedAudioSystem _audioSystem = default!;
     [Dependency] private readonly SharedJobSystem _jobSystem = default!;
     [Dependency] private readonly SharedMindSystem _mindSystem = default!;
-    [Dependency] private readonly ITimerManager _timerManager = default!;
-
-
+    [Dependency] private readonly StationJobsSystem _stationJobsSystem = default!;
+    [Dependency] private readonly StationSystem _stationSystem = default!;
+    [Dependency] private readonly StationRecordsSystem _recordsSystem = default!;
 
 
     private float _maxSsdTime = default!;
@@ -71,11 +71,42 @@ public sealed class SsdTeleportationSystem : EntitySystem
                 RemComp<SharedPullableComponent>(uid);
 
                 ssdIndicator.IsTeleporting = true;
-
+                TryFreeJob(uid);
                 QueSsdDeletion(uid);
             }
         }
+    }
 
+    private void TryFreeJob(EntityUid uid)
+    {
+        if(!TryComp<DnaComponent>(uid, out var dna))
+        {
+            return;
+        }
+
+        if (!_mindSystem.TryGetMind(uid, out var _, out var _))
+        {
+            return;
+        }
+
+        if (!_jobSystem.MindTryGetJob(uid, out var _, out var jobPrototype))
+        {
+            return;
+        }
+
+        var stations = _stationSystem.GetStations();
+
+        foreach (var station in stations)
+        {
+            var records = _recordsSystem.GetRecordsOfType<GeneralStationRecord>(station);
+            foreach (var (_, record) in records)
+            {
+                if (record.DNA == dna.DNA)
+                {
+                    _stationJobsSystem.TryAdjustJobSlot(station, jobPrototype, 1);
+                }
+            }
+        }
     }
 
     private void QueSsdDeletion(EntityUid entityToDelete)
