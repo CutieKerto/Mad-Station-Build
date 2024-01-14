@@ -27,5 +27,5 @@ public sealed class MadCvars
     /// CVar for setting the maximum SSD time in minutes.
     /// </summary>
     public static readonly CVarDef<float> MaxSsdTime =
-        CVarDef.Create("mad.ssd.maxSsdTime",10f, CVar.SERVERONLY | CVar.ARCHIVE);
+        CVarDef.Create("mad.ssd.maxSsdTime",20f, CVar.SERVERONLY | CVar.ARCHIVE);
 }
