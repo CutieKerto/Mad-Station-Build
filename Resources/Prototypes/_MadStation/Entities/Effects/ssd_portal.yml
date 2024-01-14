@@ -8,8 +8,6 @@
       lifetime: 4.0
     - type: Transform
       anchored: True
-    - type: Physics
-      bodyType: Static
     - type: Sprite
       sprite: /Textures/Effects/portal.rsi
     - type: EmitSoundOnSpawn
