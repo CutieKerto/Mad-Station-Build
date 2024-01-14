@@ -16,4 +16,16 @@ public sealed class MadCvars
     /// </summary>
     public static readonly CVarDef<string> FavoriteEmotes =
         CVarDef.Create("mad.emote.favorites", "", CVar.CLIENTONLY | CVar.ARCHIVE);
+
+    /// <summary>
+    /// CVar for enabling/disabling SSD teleportation.
+    /// </summary>
+    public static readonly CVarDef<bool> SsdTeleportationEnabled =
+        CVarDef.Create("mad.ssd.teleportationEnabled", true, CVar.SERVERONLY | CVar.ARCHIVE);
+
+    /// <summary>
+    /// CVar for setting the maximum SSD time in minutes.
+    /// </summary>
+    public static readonly CVarDef<float> MaxSsdTime =
+        CVarDef.Create("mad.ssd.maxSsdTime",10f, CVar.SERVERONLY | CVar.ARCHIVE);
 }
