@@ -1,0 +1,40 @@
+﻿- type: entity
+  id: BaseSSDPortal
+  abstract: true
+  name: bluespace portal
+  description: Transports you to a linked destination!
+  components:
+    - type: TimedDespawn
+      lifetime: 4.0
+    - type: Transform
+      anchored: True
+    - type: Sprite
+      sprite: /Textures/Effects/portal.rsi
+    - type: EmitSoundOnSpawn
+      sound: /Audio/Effects/teleport_arrival.ogg
+
+- type: entity
+  id: PortalSSDRed
+  parent: BaseSSDPortal
+  description: This one looks more like a redspace portal.
+  components:
+    - type: Sprite
+      layers:
+        - state: portal-red
+    - type: PointLight
+      color: OrangeRed
+      radius: 3
+      energy: 1
+
+- type: entity
+  id: PortalSSDBlue
+  parent: BaseSSDPortal
+  components:
+    - type: Sprite
+      layers:
+        - state: portal-blue
+    - type: PointLight
+      color: SkyBlue
+      radius: 3
+      energy: 1
+

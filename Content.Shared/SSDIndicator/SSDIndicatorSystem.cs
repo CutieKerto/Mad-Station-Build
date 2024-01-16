@@ -26,6 +26,7 @@ public sealed class SSDIndicatorSystem : EntitySystem
     private void OnMindAdded(EntityUid uid, SSDIndicatorComponent component, MindAddedMessage args)
     {
         component.IsSSD = false;
+        component.SsdStartTime = DateTime.MaxValue;
         Dirty(uid, component);
     }
 
@@ -35,6 +36,7 @@ public sealed class SSDIndicatorSystem : EntitySystem
             return;
 
         component.IsSSD = true;
+        component.SsdStartTime = DateTime.Now;
         Dirty(uid, component);
     }
 }
